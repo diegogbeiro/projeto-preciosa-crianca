@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Lobster Two';
+    src: url(font/Lobster_Two/LobsterTwo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(font/Montserrat_Alternates/MontserratAlternates-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates Bolder' ;
+    src: url(font/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf) format('truetype');
+}
+
+header{
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    margin-left: -60px;
+}
+
+nav{
+    margin-left: -32px;
+}
+
+a{
+    margin-right: 8px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bolder;
+    color: #DB7582;
+    
+}
+
+a:hover{
+    color: #1FB58F;
+    transition: .2s;
+}
+
+main{
+    width: 1052px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: solid 4px #B37D4E;
+    background-color: #DB7582;
+    
+}
+
+section{
+    background-color: white;
+    padding: 16px;
+    border-radius: 20px;
+    margin: 12px ;
+    
+}
+
+
+aside{
+    background-color: white;
+    padding: 16px;
+    margin: 12px;
+    border-radius: 20px;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; 
+    margin-bottom: 16px;
+}
+
+
+
+h1, h2{
+    padding: 12px;
+    font-family: 'Lobster Two';
+    font-size: 32px;
+    color: #DB7582;
+}
+
+.picaside{
+    border-radius: 20px;
+}
+
+h3{
+    font-family: 'Montserrat Alternates Bolder';
+    color: #DB7582;
+    
+}
+
+
+
+p{
+    padding: 4px;
+    line-height: 1.2em;
+    font-family: 'Poppins';
+}
+
+h4{
+    font-family: 'Montserrat Alternates Bolder';
+    color: #DB7582;
+    padding: 4px;
+}
+
+ul, li{
+    font-family: 'Montserrat Alternates';
+    font-size: 16px;
+    line-height: 1.16em;
+    padding: 4px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: 'Montserrat Alternates Bolder';
+    font-size: 12px;
+    
+}
+
+@media (max-width:300px){
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 735px;
+    }
+
+    nav{
+        margin-top: 12px;
+        margin-bottom: 32px;
+    }
+
+    main{
+        width: 733px;
+        margin: 0 auto;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+
+    .h1sec1 {
+        font-family: 'Lobster Two';
+        font-size: 24px;
+        margin-bottom: 8px;
+        margin-top: -16px;
+    }
+    
+    .psec1 {
+        font-family: 'Poppins';
+        font-size: 16px;
+        padding: 12px;
+        margin-bottom: 28px;
+    }
+
+    .psec2 {
+        font-family: 'Poppins';
+        line-height: 1.72em;
+        font-size: 14px;
+    }
+
+    
+    
+}
+
+@media (max-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 735px;
+    }
+
+    nav{
+        margin-top: 12px;
+        margin-bottom: 32px;
+    }
+
+    main{
+        width: 733px;
+        margin: 0 auto;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+
+    h1 {
+        font-family: 'Lobster Two';
+        font-size: 24px;
+        margin-bottom: 8px;
+        margin-top: -16px;
+    }
+    
+    p{
+        font-family: 'Poppins';
+        font-size: 16px;
+        padding: 12px;
+        margin-bottom: 28px;
+    }
+
+
+}
+
+
+@media (max-width:800px){
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 735px;
+    }
+
+    nav{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    main{
+        width: 733px;
+        margin: 0 auto;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+
+    h1 {
+        font-family: 'Lobster Two';
+        font-size: 24px;
+        margin-bottom: 8px;
+        margin-top: -16px;
+    }
+    
+    p{
+        font-family: 'Poppins';
+        font-size: 16px;
+        padding: 12px;
+        margin-bottom: 28px;
+    }
+
+    
+   
+    
+}
