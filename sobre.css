@@ -68,7 +68,7 @@ section{
     background-color: white;
     padding: 16px;
     border-radius: 20px;
-    margin: 12px ;
+    margin: 12px;
     
 }
 
@@ -168,25 +168,33 @@ footer{
     }
 
 
-    .h1sec1 {
+    h1 {
         font-family: 'Lobster Two';
         font-size: 24px;
         margin-bottom: 8px;
         margin-top: -16px;
     }
     
-    .psec1 {
+    p{
         font-family: 'Poppins';
         font-size: 16px;
-        padding: 12px;
-        margin-bottom: 28px;
+        padding: 2px;
+        margin-bottom: 12px;
     }
 
-    .psec2 {
-        font-family: 'Poppins';
-        line-height: 1.72em;
-        font-size: 14px;
+    aside{
+        width: 680px;
     }
+
+    li{
+        font-size: 12px;
+    }
+
+    .picaside{
+        margin-left: 12px;
+    }
+
+
 
     
     
@@ -230,9 +238,23 @@ footer{
     p{
         font-family: 'Poppins';
         font-size: 16px;
-        padding: 12px;
-        margin-bottom: 28px;
+        padding: 2px;
+        margin-bottom: 12px;
     }
+
+    aside{
+        width: 680px;
+    }
+
+    li{
+        font-size: 12px;
+    }
+
+    .picaside{
+        margin-left: 12px;
+    }
+
+
 
 
 }
@@ -276,10 +298,23 @@ footer{
     
     p{
         font-family: 'Poppins';
-        font-size: 16px;
-        padding: 12px;
-        margin-bottom: 28px;
+        font-size: 12px;
+        padding: 2px;
+        margin-bottom: 12px;
     }
+
+    aside{
+        width: 680px;
+    }
+
+    li{
+        font-size: 12px;
+    }
+
+    .picaside{
+        margin-left: 12px;
+    }
+
 
     
    
