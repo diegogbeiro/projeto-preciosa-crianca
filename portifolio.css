@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Lobster Two';
+    src: url(font/Lobster_Two/LobsterTwo-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url(font/Montserrat_Alternates/MontserratAlternates-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat Alternates Bolder' ;
+    src: url(font/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf) format('truetype');
+}
+
+header{
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    margin-left: -60px;
+}
+
+nav{
+    margin-left: -32px;
+}
+
+a{
+    margin-right: 8px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bolder;
+    color: #DB7582;
+    
+}
+
+a:hover{
+    color: #1FB58F;
+    transition: .2s;
+}
+
+main{
+    width: 1052px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: solid 4px #B37D4E;
+    background-color: #DB7582;
+    
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: 'Montserrat Alternates Bolder';
+    font-size: 12px;
+    
+}
