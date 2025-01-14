@@ -69,6 +69,87 @@ section{
     padding: 12px;
     margin: 8px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    margin: 0 auto;
+    padding: 12px;
+    color: #DB7582;
+    font-family: 'Lobster Two';
+    font-size: 32px;
+
+}
+
+p{
+    padding: 4px;
+    line-height: 1.2em;
+    font-family: 'Poppins';
+}
+
+h2{
+    font-family: 'Montserrat Alternates Bolder';
+    font-size: 24px;
+    color: #DB7582;
+}
+
+.direita{
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-between; 
+    margin: 12px 0 12px 0;
+    padding: 12px;
+    border-radius: 20px;
+
+}
+
+.esquerda{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DB7582;
+    margin: 12px 0 12px 0;
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.claura{
+    color: white;
+}
+
+img{
+    border-radius: 20px;
+}
+
+div{
+    width: 650px;
+    padding: 12px;
+}
+
+
+
+button{
+    background-color: #B37D4E;
+    color: white;
+    font-family: 'Montserrat Alternates';
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 12px;
+    border: solid #B37D4E;
+    padding: 8px;
+    width: 380px
+}
+
+button:hover{
+    color: #1FB58F;
+    font-family: 'Montserrat Alternates Bolder';
+    transition: .4s;
+    background-color: #EEB6B7;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.253);
 }
 
 
@@ -85,5 +166,57 @@ footer{
     border-bottom-left-radius: 20px;
     font-family: 'Montserrat Alternates Bolder';
     font-size: 12px;
+    
+}
+
+@media (max-width:300px){
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 735px;
+    }
+
+    nav{
+        margin-top: 12px;
+        margin-bottom: 32px;
+    }
+
+    main{
+        width: 733px;
+        margin: 0 auto;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+
+    .h1sec1 {
+        font-family: 'Lobster Two';
+        font-size: 24px;
+        margin-bottom: 8px;
+        margin-top: -16px;
+    }
+    
+    .psec1 {
+        font-family: 'Poppins';
+        font-size: 16px;
+        padding: 12px;
+        margin-bottom: 28px;
+    }
+
+    .psec2 {
+        font-family: 'Poppins';
+        line-height: 1.72em;
+        font-size: 14px;
+    }
+
+    
     
 }
