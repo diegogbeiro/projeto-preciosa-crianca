@@ -62,7 +62,7 @@ main{
     margin: 0 auto;
     border-radius: 20px;
     border: solid 4px #B37D4E;
-    background-color: #DB7582;
+    background-color: #F4DECB;
     
 }
 
@@ -78,6 +78,7 @@ main{
 .h1sec1{
     font-family: 'Lobster Two';
     font-size: 28px;
+    color: #DB7582;
     margin-bottom: 24px;
     margin-top: -16px;
 }
@@ -85,8 +86,8 @@ main{
 .psec1{
     font-family: 'Poppins';
     font-size: 20px;
-    padding: 12px;
-    margin-bottom: 24px;
+    color: #DB7582;
+    line-height: 40px;
 }
 
 button{
@@ -167,6 +168,13 @@ footer{
     font-size: 12px;
 }
 
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
     
 
 
@@ -208,8 +216,8 @@ footer{
     .psec1 {
         font-family: 'Poppins';
         font-size: 16px;
-        padding: 12px;
-        margin-bottom: 28px;
+        line-height: 24px;
+        margin-bottom: 16px;
     }
 
     .psec2 {
@@ -260,8 +268,8 @@ footer{
     .psec1 {
         font-family: 'Poppins';
         font-size: 16px;
-        padding: 12px;
-        margin-bottom: 28px;
+        line-height: 24px;
+        margin-bottom: 16px;
     }
 
     .psec2 {
@@ -313,8 +321,8 @@ footer{
     .psec1 {
         font-family: 'Poppins';
         font-size: 16px;
-        padding: 12px;
-        margin-bottom: 28px;
+        line-height: 24px;
+        margin-bottom: 16px;
     }
 
     .psec2 {
