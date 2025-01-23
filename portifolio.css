@@ -172,7 +172,13 @@ footer{
     border-bottom-left-radius: 20px;
     font-family: 'Montserrat Alternates Bolder';
     font-size: 12px;
-    
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:600px){

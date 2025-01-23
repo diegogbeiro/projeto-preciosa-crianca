@@ -58,7 +58,7 @@ a:hover{
 
 
 main{
-    width: 1052px;
+    width: 1300px;
     margin: 0 auto;
     border-radius: 20px;
     border: solid 4px #B37D4E;
@@ -146,6 +146,16 @@ div{
     line-height: 1.72em;
 }
 
+
+.lista{
+    align-items: center;
+    font-family: 'Poppins';
+    line-height: 1.72em;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 16px;
+}
+
 strong{
     font-family: 'Montserrat Alternates Bolder';
     color: #DB7582;
@@ -184,6 +194,8 @@ footer{
         padding: 0;
         text-decoration: none;
     }
+
+    
 
     
     header{
